@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --font-content: hsl(228, 12%, 48%);
+    --price-color:hsl(158, 36%, 37%);
+    --color-netral: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: auto;
+}
+
+#container{
+    width: 500px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+#left-content{
+    width: 250px;
+    height: 375px;
+    border-radius: 2.5% 0 0 2.5%;
+}
+
+#right-content{
+    width: 250px;
+    height: 375px;
+    background-color: var(--color-netral);
+    border-radius: 0 2.5% 2.5% 0;
+}
+
+img{
+    width: 250px;
+    height: 375px;
+    border-radius: 2.5% 0 0 2.5%;
+}
+
+.text-header{
+    margin: 35px 35px 15px 35px;
+    color: var(--font-content);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.text-title{
+    margin: 15px 35px;
+    font-family: Fraunces, serif;
+    font-weight: 700;
+}
+
+.text-main{
+    margin: 15px 35px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: var(--font-content);
+}
+
+.discount-price{
+    font-family: Fraunces, serif;
+    font-weight: 700;
+    color: var(--price-color);
+}
+
+.real-price{
+    padding-left: 15px;
+    padding-top: 5px;
+    color: var(--font-content);
+    font-family: Montserrat, sans-serif ;
+    font-weight: 500;
+}
+
+#Price{
+    display: flex;
+    position: relative;
+    margin:-15px 35px ;
+}
+
+.add-cart{
+    width: 175px;
+    height: 35px;
+    margin: 15px 35px;
+    border: none;
+    border-radius: 4%;
+    background-color: var(--price-color);
+    color: var(--color-netral);
+}
+
+.img-cart{
+    width: 12px;
+    height: 12px;
+    padding-right: 8px;
+}
+
+.add-cart:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+.add-cart:active{
+    background-color: hsl(212, 21%, 14%);
+}
+
+.add-cart::after{
+    background-color: hsl(212, 21%, 14%);
+}
+
+
+
